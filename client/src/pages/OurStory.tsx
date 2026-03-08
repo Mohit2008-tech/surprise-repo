@@ -8,7 +8,7 @@ import { FloatingBackground } from "@/components/FloatingBackground";
 import photo1 from "@assets/PXL_20260213_105404975_1772944321003.jpg";
 import photo2 from "@assets/IMG_20260207_122811_1772944321003.jpg";
 import photo3 from "@assets/PXL_20260214_125810320_1772944321004.jpg";
-import photo4 from "@assets/PXL_20260213_104845717.MP_1772944321004.jpg";
+import photo4 from "@assets/PXL_20260213_104812029.MP.jpg";
 
 const stories = [
   {
