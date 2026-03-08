@@ -15,25 +15,29 @@ const stories = [
     image: photo1,
     title: "We Fight, But We Love",
     description: "We fight a lot, but our love runs deeper than any argument. Behind every disagreement is the care we have for each other. We love each other from our inner heart.",
-    color: "from-pink-300 to-rose-300"
+    color: "from-pink-300 to-rose-300",
+    objectPosition: "center"
   },
   {
     image: photo2,
     title: "We Show Our Insecurities",
     description: "When either of us meets someone else, insecurity shows. And that's okay. It's a reminder of how much we mean to each other, how much we need one another.",
-    color: "from-purple-300 to-pink-300"
+    color: "from-purple-300 to-pink-300",
+    objectPosition: "center"
   },
   {
     image: photo3,
     title: "We Truly Care",
     description: "We respect each other's boundaries and feelings. We care deeply about each other's happiness and well-being. That care is the foundation of everything we are.",
-    color: "from-rose-300 to-purple-300"
+    color: "from-rose-300 to-purple-300",
+    objectPosition: "center"
   },
   {
     image: photo4,
     title: "Love & Friendship",
     description: "We started as lovers, and now we're trying to become the best of friends too. We're building something beautiful—a love that grows stronger every day, wrapped in genuine friendship.",
-    color: "from-pink-300 to-purple-300"
+    color: "from-pink-300 to-purple-300",
+    objectPosition: "left center"
   }
 ];
 
@@ -111,6 +115,7 @@ export default function OurStory() {
                   src={story.image}
                   alt={story.title}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  style={{ objectPosition: story.objectPosition }}
                 />
 
                 {/* Gradient overlay */}
